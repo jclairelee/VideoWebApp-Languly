@@ -1,0 +1,142 @@
+@use "../../../styles/partials/colors";
+@use "../../../styles/partials/breakpoints" as bk;
+@use "../../../styles/partials/global";
+@use "../../../styles/partials/fonts";
+
+.mainDash {
+  display: flex;
+  padding-top: 2.5rem;
+  position: absolute;
+  left: 14.5rem;
+  @include bk.bigScreen {
+    left: 14.5rem;
+  }
+  @include bk.wideScreen {
+    left: 14.5rem;
+  }
+  //dashboard section
+  &__content {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 90vh;
+    padding-left: 3rem;
+    width: 600px;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    &__wrapper {
+      width: 65%;
+    }
+    @include bk.tablet {
+      width: 100vw;
+      margin: 3rem;
+    }
+  }
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #253445;
+    margin-top: 2rem;
+  }
+  &__msg {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #253445;
+    width: 95%;
+    &__wrapper {
+      align-items: center;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 5rem;
+      border-radius: 1.5rem;
+      flex-direction: row;
+      height: 11rem;
+    }
+    &__content {
+      width: 68%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      margin: 2rem 0;
+      @include bk.desktop {
+        gap: 1.25rem;
+      }
+    }
+    &__title {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    &__text {
+      font-size: 0.85rem;
+      text-align: left;
+      font-weight: 400;
+      line-height: 1.2rem;
+    }
+  }
+  &__btns {
+    width: 140px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f7cd4e;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 2.25rem;
+    gap: 1rem;
+    // @include bk.desktop {
+    // }
+    &Test {
+      width: 320px;
+      background-color: #5a5fde;
+      border-radius: 15px;
+      padding: 1rem 0rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      height: 10rem;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+    &__title {
+      font-size: 1.1rem;
+      &--small {
+        margin-top: 0.5rem;
+        font-size: 1.1rem;
+      }
+    }
+    &__text {
+      font-size: 0.75rem;
+      margin-top: 3rem;
+
+      &--small {
+        margin-top: 1rem;
+        width: 93%;
+        font-size: 0.75rem;
+      }
+    }
+    &Test--small {
+      width: 190px;
+      background-color: #f2f2f2;
+      border-radius: 15px;
+      padding: 1rem 0rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      height: 10rem;
+      box-shadow: none;
+      color: #253445;
+    }
+  }
+}
+.sideDash {
+  width: 25vw;
+  background-color: #6f93f94f;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}

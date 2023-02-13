@@ -1,0 +1,41 @@
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+.flag {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 6rem;
+  &__title {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  &__content {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    &__country {
+      margin: 2rem;
+    }
+    &__flag {
+      height: 2.75rem;
+      width: 3.75rem;
+    }
+  }
+}
+@include bk.mobile {
+  .flag__content {
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+    &__country {
+      margin: 0;
+    }
+  }
+}

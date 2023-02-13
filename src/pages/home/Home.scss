@@ -1,0 +1,9 @@
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+}

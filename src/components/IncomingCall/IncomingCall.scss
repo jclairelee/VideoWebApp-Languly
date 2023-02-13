@@ -1,0 +1,43 @@
+@use "../../styles/partials/colors";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/global";
+
+.incomingCall {
+  width: 450px;
+  border: 1px solid black;
+  border-radius: 35px;
+  height: 400px;
+  display: block;
+  justify-content: center;
+  margin: auto auto;
+  flex-direction: column;
+  background-color: white;
+  &__top {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 1.5rem 3rem 1.5rem;
+
+    &__text {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+    }
+    &__profile {
+      display: flex;
+      justify-content: center;
+      font-size: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    // &__avarta {
+    // }
+  }
+  &__bottom {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around;
+  }
+}

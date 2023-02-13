@@ -1,0 +1,15 @@
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+
+.video {
+  width: 35rem;
+  border-radius: 15px;
+  //   &__wrapper {
+  //   }
+}
+
+// @include bk.desktop{
+
+// }

@@ -1,0 +1,41 @@
+.fullScreenUI {
+  &__partnerCam {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 680px;
+    position: relative;
+    border-radius: 35px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+  }
+  &__myCam {
+    position: absolute;
+    width: 400px;
+    top: 45px;
+    border-radius: 35px;
+    left: 158px;
+  }
+}
+
+.smallScreenUI {
+  &__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto auto;
+    width: 90%;
+    padding-bottom: 48px;
+    padding-top: 150px;
+  }
+  &__partnerCam {
+    width: 610px;
+    height: 458px;
+  }
+  &__myCam {
+    width: 610px;
+  }
+}
