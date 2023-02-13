@@ -8,7 +8,7 @@ This was my capstone project at Brainstation. With the full two weeks of capston
 
 [Frontend](https://github.com/jclairelee/VideoWebApp-Languly) | [Backend](https://github.com/jclairelee/Languly-api)
 
-![Screenshot](../projectScreenshot/languly.jpg)
+![Screenshot](./src/assets/projectScreenshot/languly2.jpg)
 
 ## Tech Stack
 
@@ -29,11 +29,6 @@ This was my capstone project at Brainstation. With the full two weeks of capston
 - Socket.io
 
 # Installation
-
-Follow these steps to run a local instance:
-(You'll need node, npm, and MySQL already installed.)
-
-1. Clone or download this repo and the [api repo](https://github.com/lucaslu/lucas-lu-bikeshare-api).
 
 ### backend Setup
 
