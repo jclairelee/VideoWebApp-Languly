@@ -1,8 +1,8 @@
-# Languly(Video_Web_App)
+# Languly
 
-**_Languly is an online platform that language learners can exchange their language skills and find lanuage partner._**
+Languly is an online platform that language learners can exchange their language skills and find lanuage partner.
 
-This was my capstone project at Brainstation. With the full two weeks of capstone work period, sprint-1 was completed. Ideal screen size to run this code is at 1500px.
+This was my capstone project at Brainstation. During the two weeks capstone deadline, I was able to complete landing page, App page, login/register page, and call page. I used MUI for the first time on this project, and learned a lot about WebRTC and socket.io as well. Ideal screen size to run this code is at 1500px.
 
 [Demo link](https://www.youtube.com/watch?v=wkKaz5o2RY8)
 
@@ -24,7 +24,8 @@ This was my capstone project at Brainstation. With the full two weeks of capston
 
 ### Backend:
 
-- Node.js / Express
+- Node.js 
+- Express.js
 - MongoDB
 - Socket.io
 
